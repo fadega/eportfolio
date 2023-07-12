@@ -16,15 +16,15 @@ const SocialMediaIcons = () => {
                 />
             </a>
             <a
-                href="https://github.com/fadega"
+                href="https://www.github.com/fadega/"
                 target="_blank"
                 rel="noreferrer"
-                className="mr-5"
+                className="hover:opacity-50 transition duration-500"
             >
                 <img
                     src="../assets/github.png"
                     alt="github"
-                    className="w- h-8 "
+                    className="w-8 h-8"
                 />
             </a>
             
