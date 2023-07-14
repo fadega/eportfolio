@@ -2,6 +2,7 @@ import Navbar from "./scenes/Navbar";
 import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
 import MySkills from "./scenes/MySkills";
+import Contact from "./scenes/Contact";
 import Testimonials from "./scenes/Testimonials";
 import React, { useState, useEffect } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
@@ -51,6 +52,11 @@ function App() {
       <LineGradient />
       <div className="w-5/6 mx-auto  md:h-full">
         < Testimonials/>
+      </div>
+
+      <LineGradient />
+      <div className="w-5/6 mx-auto  md:h-full">
+        < Contact/>
       </div>
     </div>
   );
